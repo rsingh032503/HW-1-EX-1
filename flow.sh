@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # stage changes
-git _
+git add .
 
 # commit changes
-git _
+git commit -m "auto commit using flow.sh" 
 
 # push changes
-git _
+git push origin main
